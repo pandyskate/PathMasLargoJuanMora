@@ -133,18 +133,18 @@ namespace Program
             int[,] mat;
 
             //inicializacion
-            mat = new int[10, 10];
+            mat = new int[1000, 1000];
 
 
             int numeroSinCotaArbitraria;
             Random rnd = new Random();
 
             //inicio llenado de la mariz con los numeros entre 0 y 1500 (se recorrern filas y columnas)
-            for (int f = 0; f < 10; f++)
+            for (int f = 0; f < 1000; f++)
             {
 
 
-                for (int c = 0; c < 10; c++)
+                for (int c = 0; c < 1000; c++)
                 {
                     numeroSinCotaArbitraria = rnd.Next(0,1500);
 
